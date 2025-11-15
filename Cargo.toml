@@ -1,0 +1,15 @@
+[package]
+name = "investigator_inspector"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+
+[lib]
+name = "inspector"
+path = "src/lib.rs"
+
+[[bin]]
+name = "inspector"
+path = "src/bin/cli.rs"
